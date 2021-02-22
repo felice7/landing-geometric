@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #000;
+    font-family: 'Rubik', sans-serif;
+}
+
+.wrapper {
+    position: absolute;
+    width: 960px;
+    height: 572px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.wrapper_left,
+.wrapper_right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    z-index: 1;
+}
+
+.wrapper_left {
+    background:#8B0000;
+    left: 0%;
+}
+
+.wrapper_left .nav {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    
+}
+
+.wrapper_left .nav li {
+    display: inline-block;
+    letter-spacing: 3px;
+    padding: 0 15px;
+    transition: .5s ease;
+    
+}
+
+.wrapper_left .nav li a{
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
+
+.wrapper_left .nav li a:hover {
+    color: #FF6347;;
+}
+
+
+.content .text {
+    width: 80%;
+    margin: 7em 5em;
+    
+}
+
+.content .text h2,
+.content .text p {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.content .text h1 {
+    font-size: 56px;
+    font-family: 600;
+    letter-spacing: -4px;
+}
+
+.content .text .btn {
+    font-size: 14px;
+    font-weight: 400;
+    width: 40%;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    background: #000;
+    margin-top: 30px;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.wrapper_right {
+    background: #fff;
+    right: 0%;
+}
+
+.risorsa_1 {
+    position: absolute;
+}
+
+.content .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.risorsa_30 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.risorsa_28 {
+    position: absolute;
+    right: 95px;
+    bottom: 0;
+}
+.risorsa_29 {
+    position: absolute;
+    right: 95px;
+    bottom: 0;
+}
+
+.risorsa_15 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.risorsa_26 {
+    position: absolute;
+    right: 0px;
+    bottom: 96px;
+}
+
+.risorsa_22 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+.risorsa_4c {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+
+.risorsa_21 {
+    position: absolute;
+    left: 96px;
+    bottom: 0;
+}
+
+.risorsa_21b {
+    position: absolute;
+    left: 96px;
+    bottom: 96px;
+}
+
+.risorsa_20 {
+    position: absolute;
+    left: 96px;
+    bottom: 0;
+}
+
+.risorsa_16 {
+    position: absolute;
+    left: 193px;
+    bottom: 0;
+}
+
+.risorsa_15b {
+    position: absolute;
+    left: 192px;
+    bottom: 95px;
+}
+
+.risorsa_13 {
+    position: absolute;
+    left: 230px;
+    bottom: 150px;
+}
+
+.risorsa_12 {
+    position: absolute;
+    left: 190px;
+    bottom: 190px;
+}
+.risorsa_5 {
+    position: absolute;
+    left: 95px;
+    bottom: 190px;
+}
+
+.risorsa_14 {
+    position: absolute;
+    left: 260px;
+    bottom: 170px;
+}
+
+.risorsa_4 {
+    position: absolute;
+    left: 190px;
+    bottom: 285px;
+}
+
+.risorsa_19 {
+    position: absolute;
+    left: 95px;
+    bottom: 285px;
+}
+
+.risorsa_11 {
+    position: absolute;
+    left: 0;
+    bottom: 191px;
+}
+
+.risorsa_11c {
+    position: absolute;
+    left: 0;
+    bottom: 290px;
+}
+
+.risorsa_28b {
+    position: absolute;
+    left: 0;
+    bottom: 285px;
+}
+
+.risorsa_2 {
+    position: absolute;
+    left: 0;
+    bottom: 380px;
+}
+
+.risorsa_3 {
+    position: absolute;
+    left: 0;
+    bottom: 475px;
+}
+
+.risorsa_16b {
+    position: absolute;
+    left: 96px;
+    bottom: 380px;
+}
+
+.risorsa_15c {
+    position: absolute;
+    left: 96px;
+    bottom: 475px;
+}
+
+.risorsa_26b {
+    position: absolute;
+    left: 192px;
+    bottom: 475px;
+}
+
+.risorsa_11b {
+    position: absolute;
+    left: 190px;
+    bottom: 375px;
+}
+.risorsa_14b {
+    position: absolute;
+    left: 180px;
+    bottom: 525px;
+    transform: rotate(-90deg);
+}
+
+.risorsa_13b {
+    position: absolute;
+    left: 165px;
+    bottom: 480px;
+    transform: rotate(-90deg);
+}
+
+.risorsa_30b {
+    position: absolute;
+    left: 288px;
+    bottom: 475.1px;
+}
+
+.risorsa_22b {
+    position: absolute;
+    left: 289px;
+    bottom: 280px;
+}
+
+.risorsa_5b {
+    position: absolute;
+    left: 288px;
+    bottom: 378.8px;
+}
+
+.risorsa_28b {
+    position: absolute;
+    left: 383px;
+    bottom: 380px;
+    transform: rotate(-180deg);
+}
+
+.risorsa_4b {
+    position: absolute;
+    left: 384px;
+    bottom: 475px;   
+}
+
+.social-media {
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media ul li {
+    list-style: none;
+}
+
+.social-media ul li i {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #000;
+    cursor: pointer;
+}
+
+.social-media_text {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+    transform: rotate(90deg);
+}
